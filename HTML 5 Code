@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <div class="container">
+  <header class="header">
+<h1 <div id="title" class class="text-center"> Survey Form </h1>
+<p id="description"> Thank you for taking the time to help me </p>
+<p id="socials">
+  Connect with me on my professional profiles: 
+  <a href="https://github.com/platrex" target="_blank">GitHub</a>to view my projects and contributions, or visit my
+  <a href="https://www.linkedin.com/in/hussein-hodroj-4b92a22ba" target="_blank">LinkedIn</a> for professional updates and networking.
+</p>
+<form id="survey-form"> 
+  <div class="form-g">
+<label id="name-label" for="name">Name</label>
+<input
+type="text"
+name="name"
+id="name"
+class="form-control"
+required
+placeholder="Enter your Name"
+/>
+</div>
+<div class="form-g">
+  <label id="email-label" for="email" >Email</label>
+  <input
+  type="email"
+  name="email"
+  id="email"
+  class="form-control"
+  required
+  placeholder="Enter your email"
+/>
+</div>
+<div class="form-g">
+  <label id="number-label" for="number">Age
+  </label>
+  <input
+    type="number"
+    name="age"
+    id="number"
+    class="form-control"
+    required
+    placeholder="Age"
+    min="10"
+    max="99"
+/>
+</div>
+<div class="form-g">
+  <p>What Best Describes Your Current Role?</p>
+<select id="dropdown" name="role" class='form-control' required>
+<option title="hover text"> Select current state</option>
+<option title="hover text"> Student </option>
+<option title="hover text"> Part Time Job </option>
+<option title="hover text"> Full Time job</option>
+<option title="hover text"> Other </option> 
+</select>
+</div>
+<div class="form-g">
+  <p>What Is Your Gender?</p>
+  <div class="radio-group">
+    <label>
+      <input
+        type="radio"
+        name="usergender"
+        class="input-radio"
+        value="Male"
+        checked
+      /> Male
+    </label>
+    <label>
+      <input
+        type="radio"
+        name="usergender"
+        class="input-radio"
+        value="Female"
+      /> Female
+    </label>
+  </div>
+</div>
+
+<div class="form-g">
+  <p>
+    What Are Your Interests? 
+    <span class="clue">(Check all that apply)</span>
+  </p>
+  <div class="checkbox-group">
+    <label>
+      <input
+        type="checkbox"
+        name="prefer"
+        class="input-checkbox"
+        value="Web Development"
+      /> Web Development
+    </label>
+    <label>
+      <input
+        type="checkbox"
+        name="prefer"
+        class="input-checkbox"
+        value="Data Science"
+      /> Data Science
+    </label>
+    <label>
+      <input
+        type="checkbox"
+        name="prefer"
+        class="input-checkbox"
+        value="AI and Machine Learning"
+      /> AI and Machine Learning
+    </label>
+    <label>
+      <input
+        type="checkbox"
+        name="prefer"
+        class="input-checkbox"
+        value="Mobile App Development"
+      /> Mobile App Development
+    </label>
+    <label>
+      <input
+        type="checkbox"
+        name="prefer"
+        class="input-checkbox"
+        value="Other"
+      /> Other
+    </label>
+  </div>
+</div>
+
+  <div class="form-g">
+  <p> Tell us more about You!</p>
+  <textarea
+  id="comments"
+  class="input-textarea"
+  name="comment"
+  placeholder="Enter Your Answer Here"
+  > </textarea>
+  </div>
+<div class="form-g">
+  <button type="submit" id="submit"
+  class="submit-button">Submit
+  </button>
+  </div>
+  </form>
+  </div>
