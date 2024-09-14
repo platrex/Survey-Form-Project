@@ -148,3 +148,6 @@ placeholder="Enter your Name"
   </div>
   </form>
   </div>
+  <footer>
+  <p>&copy; 2024 Hussein Hodroj. All rights reserved.</p>
+</footer>
